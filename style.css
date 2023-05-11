@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto:wght@700&display=swap');
+
+body[data-theme="t-light"] {
+    background-color: rgb(95, 197, 204);
+}
+
+body[data-theme="t-dark"] {
+    background-color:#000000;
+    
+}
+
+
+body[data-theme="t-normal"] {
+    background-color: rgb(243, 135, 85);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: red
+}
+
+.cabeçalho {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    margin-left: 60px;
+    padding: 24px;
+}
+
+
+.meu-botao{
+    background-color: #cacaca;
+    width: 300px;
+    height: 65px;
+    border: none;
+    box-shadow: 4px 5px 4px #000000;
+    border-radius: 20px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+}
+
+.meu-botao:hover{
+    background-color: #7c7a7a;
+    font-size: 30px;
+}
+.meu-botao:active{
+    background-color: #000000;
+    color: white;
+
+
+}
+
+
+
+.menu-cabeçalho{
+position: absolute;
+    display: flex;
+    gap: 50px;
+    margin-left: 600px;
+    
+    
+    
+}
+
+.item-menu-cabeçalho{
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #ffffff;
+    
+
+}
+
+
+.item-menu-cabeçalho:hover{
+    font-size: 50px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(202, 195, 180);
+    border: 4px;
+    border-color: white;
+    border-style: dotted;
+}
+
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.5px solid #ffffff;
+    margin-bottom: 40;
+}
+
+.conteudo-principal-titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.conteudo-principal-subtitulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 40px;
+    color: rgb(255, 255, 255);
+}
+
+
+#quizcss{
+    height: 60px;
+    width: 80px;
+    background-color: greenyellow;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 20px;
+
+
+
+}
+
+#quizcss:hover{
+    height: 60px;
+    width: 80px;
+    background-color: rgb(113, 161, 41);
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 20px;
+
+    
+
+
+
+}
