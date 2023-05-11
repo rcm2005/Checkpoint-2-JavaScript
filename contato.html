@@ -9,23 +9,24 @@
 </head>
 <body>
     <header class="cabeçalho">
-        <button class="meu-botao js-tema" type="button">Troca de Tema</button>
         <nav class="menu-cabeçalho">
             <a class="item-menu-cabeçalho" href="contato.html">Contato</a>
             <a class="item-menu-cabeçalho" href="sobre.html">Sobre</a>
             <a class="item-menu-cabeçalho" href="quiz.html">Quiz</a>
         </nav>
+        <button class="meu-botao js-tema" type="button">Troca de Tema</button>
     </header>
     <main class="conteudo">  
                 <h1 class="conteudo-principal-titulo">Vinhacity</h1>
                 
         <form id="form">
             <div class = 'form__content'>
-                <p>Nome:<input type="text" id="n"></p><br>
-                <p>Seu Email:<input type="email" id="e"></p><br>
-                <p>Mensagem:<input type="text" id="m"></p><br>
+                <p class="cnt">Nome:<input type="text" id="n"></p><br>
+                <p class="cnt">Seu Email:<input type="email" id="e"></p><br>
+                <p class="cnt">Mensagem:<input type="text" id="m"></p><br>
+                <input class="botao-submit" type="submit" value="enviar" id="login" onclick="validar()">
+
             </div>
-            <input type="submit" value="enviar" id="login" onclick="validar()">
 
             <p id = 'msg1'></p>
             
